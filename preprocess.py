@@ -192,7 +192,7 @@ def convert_single_example(ex_index, example, max_seq_length_src, max_seq_length
         tokens_a = tokens_a[0:(max_seq_length_src - 2)]
 
     if len(tokens_c) > max_seq_length_cfg - 2:
-        tokens_a = tokens_a[0:(max_seq_length_cfg - 2)]
+        tokens_c = tokens_c[0:(max_seq_length_cfg - 2)]
 
     if len(tokens_b) > max_seq_length_tgt - 2:
         tokens_b = tokens_b[0:(max_seq_length_tgt - 2)]
@@ -211,7 +211,7 @@ def convert_single_example(ex_index, example, max_seq_length_src, max_seq_length
     segment_ids_cfg = []
     tokens_cfg.append("[CLS]")
     segment_ids_cfg.append(0)
-    for token in tokens_a:
+    for token in tokens_c:
         tokens_cfg.append(token)
         segment_ids_cfg.append(0)
     tokens_cfg.append("[SEP]")
