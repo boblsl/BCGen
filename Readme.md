@@ -36,3 +36,15 @@ Configurations for the model can be changes from config.py file
 
 As the limitation of LFS, the dataset can be downloaded from [google driver](https://drive.google.com/file/d/1QFaZLqVhCFX7MgFoA32o2gjBZJDKw5u3/view?usp=sharing).
 Unzip the downloaded .zip file, which contains two folders ('datawash' and 'pretrained_model'), then move these two folders to the BCGen root directory.
+
+|--scripts<br>
+|&emsp;&emsp;|--build_data_with_cfg.py<br>
+|&emsp;&emsp;|--drawCFG.py<br>
+|&emsp;&emsp;|--prepare_train_data.py<br>
+|--texar_repo<br>
+|--BCGen.py<br>
+|--config.py<br>
+|--evaluation.py<br>
+|--generateCOMMENT.py<br>
+|--main.py<br>
+|--preprocess.py<br>
