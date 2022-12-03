@@ -34,7 +34,7 @@ Configurations for the model can be changes from config.py file
 > run the evaluation.py <br>
 > Command: ```python evaluation.py```
 
-As the limitation of LFS, the dataset can be downloaded from [google driver](https://drive.google.com/file/d/1QFaZLqVhCFX7MgFoA32o2gjBZJDKw5u3/view?usp=sharing).
+As the limitation of LFS, the dataset can be downloaded from [google driver](https://drive.google.com/file/d/1ShngJ-1adWUeekiAJqo735Ykmv5TiacU/view?usp=share_link).
 Unzip the downloaded .zip file, which contains two folders ('datawash' and 'pretrained_model'), then move these two folders to the BCGen root directory.
 
 |--scripts<br>
